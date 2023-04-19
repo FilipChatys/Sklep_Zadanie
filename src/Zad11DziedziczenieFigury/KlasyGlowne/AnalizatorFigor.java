@@ -1,6 +1,9 @@
 package Zad11DziedziczenieFigury.KlasyGlowne;
 
+import Zad11DziedziczenieFigury.OpcjeFigur.TrojkatRownoboczny;
+
 public class AnalizatorFigor extends Figura {
+
 
 
     public AnalizatorFigor(int[] boki) {
@@ -39,6 +42,8 @@ public class AnalizatorFigor extends Figura {
             System.out.println(obliczPole());
         }
     }
+
+
 
     private void analizujCzworokat() {
         int a = boki[0];

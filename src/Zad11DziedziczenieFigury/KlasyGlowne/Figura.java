@@ -18,7 +18,7 @@ public class Figura {
 
     public double obliczPole() {
 
-        return wynik;
+        return 0;
     }
 }
 
