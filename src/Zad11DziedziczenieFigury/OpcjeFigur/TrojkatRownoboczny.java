@@ -24,10 +24,6 @@ public class TrojkatRownoboczny extends Figura {
 
             return pole;
         }
-
-        //@Override
-        //public String toString() {
-        //    return "Trójkąt Równoboczny";
-        }
+}
 
 

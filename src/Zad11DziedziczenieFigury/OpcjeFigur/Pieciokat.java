@@ -16,7 +16,7 @@ public class Pieciokat extends Figura {
         int d = boki[3];
         int e = boki[4];
 
-        System.out.println("Nie mozna obliczyc pola");
+        //System.out.println("Nie mozna obliczyc pola");
         return 0;
     }
 

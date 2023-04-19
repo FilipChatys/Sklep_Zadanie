@@ -17,8 +17,6 @@ public class TrojkatRownoramienny extends Figura {
             double pole = 0;
 
             double h;
-            // double h = Math.sqrt(a * a - ((double) a / 2) * ((double) a / 2));
-            // return a * h / 2;
 
             if (a == b){
                 h = Math.sqrt(a*a - Math.pow(((double) 1/2 * c), 2));
@@ -33,10 +31,6 @@ public class TrojkatRownoramienny extends Figura {
 
             return pole;
         }
-
-        //@Override
-        //public String toString() {
-        //    return "Trójkąt Równoramienny";
-        }
+}
 
 

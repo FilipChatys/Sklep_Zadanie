@@ -18,7 +18,7 @@ public class Szesciokat extends Figura {
         int e = boki[4];
         int f = boki[5];
 
-        System.out.println("Nie mozna obliczyc pola");
+        //System.out.println("Nie mozna obliczyc pola");
         return 0;
     }
 

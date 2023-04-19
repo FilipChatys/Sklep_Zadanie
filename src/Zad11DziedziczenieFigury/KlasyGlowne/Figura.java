@@ -7,7 +7,7 @@ public class Figura {
         this.boki = boki;
     }
 
-    public double obliczObwod() {
+    public double obliczObwod(int[] boki) {
         int obwod = 0;
         for (int bok : boki) {
             obwod = obwod + bok;
@@ -18,7 +18,8 @@ public class Figura {
 
     public double obliczPole() {
 
-        return wynik;
+        return 0;
+
     }
 }
 
