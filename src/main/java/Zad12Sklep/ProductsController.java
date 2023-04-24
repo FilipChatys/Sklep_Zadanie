@@ -17,12 +17,15 @@ public class ProductsController {
     @Autowired
     ProductRepository productRepository;
 
-    @GetMapping("/product")
-    public ResponseEntity<List<Product>> getAllTutorials(@RequestParam(required = false) String title) {
+    @GetMapping("/products")
+    public ResponseEntity<List<Product>> getAllProducts(@RequestParam(required = false) String name) {
         try {
             List<Product> products = new ArrayList<Product>();
 
+            if (name == null)
                 productRepository.findAll().forEach(products::add);
+            else
+                productRepository.findByNameContaining(name).forEach(o -> products.add((Product) o));
 
             if (products.isEmpty()) {
                 return new ResponseEntity<>(HttpStatus.NO_CONTENT);

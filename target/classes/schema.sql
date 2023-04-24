@@ -8,3 +8,11 @@ CREATE TABLE IF NOT EXISTS products
     quantity INT          NOT NULL,
     PRIMARY KEY (id)
 );
+
+CREATE TABLE IF NOT EXISTS users
+(
+    id       INT          NOT NULL AUTO_INCREMENT,
+    login    VARCHAR(250) NOT NULL,
+    password VARCHAR(250) NOT NULL,
+    PRIMARY KEY (id)
+);
