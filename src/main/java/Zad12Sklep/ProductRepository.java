@@ -6,6 +6,7 @@ import java.util.Scanner;
 
 public interface ProductRepository extends JpaRepository<Product, Long> {
 
+    Iterable<Object> findByNameContaining(String name);
 }
 
 
