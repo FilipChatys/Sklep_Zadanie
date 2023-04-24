@@ -6,7 +6,7 @@ public class Core {
 
     Scanner scanner = new Scanner(System.in);
 
-    private final ProductRepository database = new ProductRepository();
+//    private final ProductRepository database = new ProductRepository();
 
     private final LoginAndPassword userchecking = new LoginAndPassword();
 
